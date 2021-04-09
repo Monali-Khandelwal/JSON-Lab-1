@@ -81,7 +81,7 @@ window.onload = function()
 				this.yVel *= -1; //make it bounce
 			}
 
-			// the reaason why we did this if functin so the boxes dont
+			// the reason why we did this if function so the boxes dont
 			//try to add y by its belocity whe it reaches the bottom
 			//now we add gravity
 			if(this.y < H - this.height)
